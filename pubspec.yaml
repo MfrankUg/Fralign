@@ -1,0 +1,28 @@
+name: fralign
+description: "An intuitive multi-language pronunciation, speech-to-text spelling assistant, and contextual dictionary app."
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  provider: ^6.1.2
+  flutter_tts: ^4.2.0
+  speech_to_text: ^7.0.0
+  http: ^1.4.0
+  shared_preferences: ^2.3.3
+  flutter_animate: ^4.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
